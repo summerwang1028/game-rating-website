@@ -1,7 +1,7 @@
 import axios from './api';
 
 export default {
-    siteRoot: 'https://mysite.com',
+    siteRoot: 'https://game-rating-website.herokuapp.com',
     getSiteData: () => ({
         title: 'Game Rating',
     }),
