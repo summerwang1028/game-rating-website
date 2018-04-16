@@ -8,7 +8,6 @@ const Game = mongoose.model(gameSchemaString);
 
 router.get('/', async function(req, res) {
     const gameList = await Game.find();
-
     res.json(gameList);
 });
 
